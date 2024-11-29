@@ -1,13 +1,55 @@
-# Java Reflection-API 학습
+## 🐱 Java Reflection-API 학습 노트
 
-학습 기록 일지
+<details>
 
-- [1. Reflection API Entrypoint & WildCard](./doc/2-Reflection-API-Entrypoint.md)
-- [2. Reflection 인터페이스와 기본 재귀 호출(진행중)]()
+<summary><strong>내용보기</strong></summary>
+
+## 1. Reflection 개요
+
+- [Reflection API Entrypoint & WildCard](./doc/2-Reflection-API-Entrypoint.md)
+- [Class Analyzer 구현](./src/a/analyzer)
+- [Reflection & Recursion을 이용한 Interface Analyze 구현](./src/a/analyzer)
+
+<br>
+
+## 2. 객체와 생성자
+
+<br>
+
+## 3. 필드 검사와 배열 감사
+
+<br>
+
+## 4. 필드 조정 및 배열 생성
+
+<br>
+
+## 5. 메서드 탐색과 호출
+
+<br>
+
+## 6. 제어자 탐색 및 분석
+
+<br>
+
+## 7. Reflection과 Annotation
+
+<br>
+
+## 8. Dynamic Proxy
+
+<br>
+
+## 9. 성능 및 보안 모범 사례
+
+</details>
 
 ---
 
 ## 📚 Reflection이란?
+
+<details>
+<summary><strong>내용보기</strong></summary>
 
 Java Reflection이란 짧게 요약하면 **런타임 중, 어플리케이션의 클래스 및 객체에 관련된 정보에 액세스 할 수 있게 해주는 언어이자 JVM의 기능** 입니다.
 
@@ -138,5 +180,8 @@ Reflection으로 작성된 코드는 일반 코드에 비해 이해하기 어렵
 Reflection은 클래스나 객체의 구조를 기반으로 동작하기 때문에, 특정 JVM 구현이나 클래스 로더에 따라 동작이 달라질 수 있습니다.
 
 이는 코드의 플랫폼 독립성을 저해할 수 있습니다.
+
+</details>
+
 
 ---
