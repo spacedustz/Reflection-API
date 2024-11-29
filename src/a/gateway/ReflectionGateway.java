@@ -1,4 +1,4 @@
-package src;
+package src.a.gateway;
 
 import java.util.Collection;
 import java.util.HashMap;
